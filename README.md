@@ -1,7 +1,16 @@
 # 📈 Smart Money Concepts (SMC) in Python  
 
 A Python package for performing **Smart Money Concepts (SMC)** technical analysis using historical stock data from **yfinance**.  
-This framework helps traders and analysts detect **market structure, order blocks, fair value gaps, BOS/CHoCH**, and visualize them with **matplotlib**.  
+This framework helps traders and analysts detect **market structure, order blocks, fair value gaps, BOS/CHoCH**, and visualize them with **matplotlib**. 
+
+## 📊 Example Visualization
+
+![SMC Chart Example](images/smc_chart.png)
+
+<p align="center">
+  <img src="images/Analyzing.png" alt="Analyzing" width="250"/>
+  <img src="images/Analysis_summary.png" alt="Analysis_summary" width="250"/>
+</p>
 
 ---
 
