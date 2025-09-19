@@ -66,7 +66,7 @@ async def main(stock_codes: List[str], period: str = "max", interval: str = "1d"
                     smc.prepare_data()
                     smc.run_smc_analysis()
                     if visualize:
-                        smc.visualize_smc(bars_to_show=500)
+                        smc.visualize_smc(bars_to_show=250)
                     else:
                         smc.print_analysis_summary()  # Print summary even if visualization is skipped
                     break
