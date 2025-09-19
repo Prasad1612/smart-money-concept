@@ -126,9 +126,6 @@ Options:
 - Fair Value Gaps (highlighted)  
 - Equal Highs & Equal Lows  
 - Premium / Discount zones  
-
-*(Sample visualization screenshots recommended here)*  
-
 ---
 
 ## 📂 Project Structure  
