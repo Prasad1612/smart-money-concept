@@ -140,7 +140,7 @@ smart-money-concepts/
 ---
 
 ## 🙌 Credits  
-- **[Code Tech (YouTube)](https://www.youtube.com/watch?v=s6YWq-W7V6g)** → Tutorial on building an SMC indicator in Python  
+- **[Code Tech (YouTube)](https://www.youtube.com/watch?v=s6YWq-W7V6g)** → This code is Take from YouTube tutorial by Code Tech, which provides a detailed walkthrough of building an SMC indicator in Python
 - **[LuxAlgo](https://www.luxalgo.com/library/indicator/smart-money-concepts-smc/)** → Inspiration from their Smart Money Concepts indicator  
 
 ---
