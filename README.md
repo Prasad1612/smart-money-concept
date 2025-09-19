@@ -6,6 +6,8 @@ This framework helps traders and analysts detect **market structure, order block
 ## 📊 Example Visualization
 
 ![SMC Chart Example](images/smc_chart.png)
+![Analyzing](images/Analyzing.png)
+![Analysis_summary](images/Analysis_summary.png)
 
 <p align="center">
   <img src="images/Analyzing.png" alt="Analyzing" width="250"/>
