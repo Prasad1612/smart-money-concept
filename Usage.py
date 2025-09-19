@@ -22,7 +22,7 @@ async def main(stock_codes: List[str], period: str = "max", interval: str = "1d"
                     smc.prepare_data()
                     smc.run_smc_analysis()
                     if visualize:
-                        smc.visualize_smc(bars_to_show=500)
+                        smc.visualize_smc(bars_to_show=250)
                     else:
                         smc.print_analysis_summary()  # Print summary even if visualization is skipped
                     break
@@ -54,3 +54,25 @@ if __name__ == "__main__":
     # stock_codes = ["^NSEI"]
     
     asyncio.run(main(stock_codes, period="1y", interval="1d", batch_size=10, delay=2.0, visualize=True))
+
+
+# =====================================================
+# yfinance Period & Interval Reference
+#
+# period (how much history to fetch):
+#   "1d", "5d", "1mo", "3mo", "6mo", "1y", "2y","5y", "10y", "ytd", "max"
+#
+# interval (granularity of data):
+#   "1m", "2m", "5m", "15m", "30m", "60m"/"1h", "90m",
+#   "1d", "5d", "1wk", "1mo", "3mo"
+#
+# ⚠️ Restrictions:
+# - 1m interval → only last 7 days max.
+# - Intraday intervals (m/h) → period ≤ 60d.
+# - Daily/weekly/monthly → can use longer periods.
+#
+# Examples:
+# - Intraday scalping: period="5d", interval="1m"
+# - Swing trade:       period="1mo", interval="1h"
+# - Positional:        period="6mo", interval="1d"
+# =====================================================
